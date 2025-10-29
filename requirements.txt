@@ -1,5 +1,7 @@
 opencv-python
 mediapipe
 pyautogui
-pygame
 numpy
+pygame
+openpyxl
+pywin32

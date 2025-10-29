@@ -1,0 +1,11 @@
+Integração e otimização do Corta Frutas + documentação
+
+- Integrado código original e atualizado em um único arquivo otimizado (pygame + openpyxl).
+- Reestruturado em seções claras: imports, constantes, inicializações, funções Excel, classes, utilitários e main().
+- Reduzida duplicação e simplificado loop principal; listas de partículas/frutas atualizadas com list comprehensions.
+- Eventos tratados de forma consistente, com flags para UI e clique do mouse.
+- I/O Excel robusto: cria arquivo se não existir, trata valores nulos e converte pontuações com segurança.
+- Comentários objetivos adicionados ao longo do código, explicando blocos reestruturados.
+- Pequenas melhorias de performance: fontes pré-carregadas, verificação de listas otimizada, limita checks custosos.
+- Mantidas todas as funções principais: salvar_dados_excel, ler_ranking_excel, ler_jogadores_unicos, Particula, Fruta, main().
+- Adicionados README.txt e requirements.txt com instruções de uso e dependências.
